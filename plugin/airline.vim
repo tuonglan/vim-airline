@@ -177,7 +177,7 @@ function! s:airline_toggle()
     if !airline#util#stl_disabled(winnr())
       if &laststatus < 2
         let _scroll=&scroll
-        set laststatus=2
+"        set laststatus=2
         if &scroll != _scroll
           let &scroll = _scroll
         endif
