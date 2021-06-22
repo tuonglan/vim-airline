@@ -3,6 +3,9 @@
 
 scriptencoding utf-8
 
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='kolor'
+
 let g:airline_statusline_funcrefs = get(g:, 'airline_statusline_funcrefs', [])
 let g:airline_inactive_funcrefs = get(g:, 'airline_inactive_statusline_funcrefs', [])
 
